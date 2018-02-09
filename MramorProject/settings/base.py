@@ -29,6 +29,7 @@ INSTALLED_APPS = [
     'home',
     'search',
     'portfolio',
+    'telepot',
 
     'wagtail.wagtailforms',
     'wagtail.wagtailredirects',
