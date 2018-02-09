@@ -1,0 +1,12 @@
+{% load static %}
+{% load wagtailimages_tags %}
+
+{% for skill in our_skills %}
+    <article class="col-lg-3 skills">
+        <h3>{{ skill.title }}</h3>
+        {% image skill.skill_logo fill-100x100 as img %}
+        <img src="{{ img.url }}" alt="">
+        <p>{{ skill.desc }}</p>
+    </article>
+
+{% endfor %}
