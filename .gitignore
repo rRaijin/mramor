@@ -45,18 +45,6 @@ __pycache__/
 
 # Distribution / packaging
 .Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
@@ -86,13 +74,6 @@ coverage.xml
 # Translations
 *.mo
 *.pot
-
-# Django stuff:
-*.log
-.static_storage/
-.media/
-media/
-local_settings.py
 
 # Flask stuff:
 instance/
@@ -135,9 +116,6 @@ venv.bak/
 # Rope project settings
 .ropeproject
 
-# mkdocs documentation
-/site
-
 # mypy
 .mypy_cache/
 ### VirtualEnv template
@@ -153,6 +131,3 @@ pyvenv.cfg
 pip-selfcheck.json
 
 *.sqlite3
-
-mysite/settings/local.py
-static/
